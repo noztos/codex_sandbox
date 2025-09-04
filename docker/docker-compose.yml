@@ -21,6 +21,7 @@ services:
     environment:
       <<: *env_base
       CARGO_TARGET_DIR: '/workspace/codex-rs/target-amd64'
+      OPENAI_API_KEY: 'sk-proj--__YOUR_API_KEY__'
     volumes:
       - '$PWD/codex:/workspace'
     platform: 'linux/amd64'
