@@ -22,7 +22,7 @@ services:
       <<: *env_base
       CARGO_TARGET_DIR: '/workspace/codex-rs/target-amd64'
     volumes:
-      - '$PWD:/workspace'
+      - '$PWD/codex:/workspace'
     platform: 'linux/amd64'
     working_dir: '/workspace/codex-rs'
 
