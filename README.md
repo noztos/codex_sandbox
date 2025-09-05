@@ -13,3 +13,4 @@ This repository is my(noztos) OpenAI codex sandbox, including codex docker conta
 ### execution
 
 1. `$ docker compose run --rm codex`
+  1. (in container) `$ codex run --model gpt-4o-mini`
