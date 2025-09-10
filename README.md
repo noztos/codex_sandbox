@@ -7,7 +7,8 @@ This repository is my(noztos) OpenAI codex sandbox, including codex docker conta
 
 1. `$ git clone --recurse-submodules git@github.com:noztos/codex_sandbox.git`
 1. `$ cd docker`
-1. `$ docker compose build`
+1. `$ docker compose build devcontainer`
+1. `$ docker compose build codex`
 
 ### codex cli execution
 

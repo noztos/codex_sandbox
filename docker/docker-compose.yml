@@ -5,6 +5,7 @@ services:
     image: codex-linux-dev
     build:
       context: ./codex/.devcontainer
+      pull: true
     tty: true
     stdin_open: true
     privileged: true
